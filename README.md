@@ -132,7 +132,7 @@ Returns the total spending grouped by category for a specific month/year using *
 
 ---
 
-## Technical Highlights (Interview Ready)
+## Technical Highlights
 - **Streams API for Summary**: Implemented data grouping using `Collectors.groupingBy()` and `Collectors.summingDouble()` to process SQL entities entirely in Java stream pipelines.
 - **Robust Validation**: Uses Spring Boot validation annotations like `@NotNull` and `@Min` to safeguard API requests.
 - **Central Exception Handling**: Uses a global `@ControllerAdvice` controller to intercept domain errors (`ResourceNotFoundException`, validation failures) and return standardized JSON error bodies with correct HTTP status codes.
